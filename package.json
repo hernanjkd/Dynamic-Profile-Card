@@ -29,7 +29,6 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "breathecode-dom": "^1.0.0",
-    "jquery": "^3.4.1",
     "popper.js": "^1.14.3"
   },
   "devDependencies": {
@@ -49,6 +48,8 @@
     "flow-bin": "^0.88.0",
     "flow-webpack-plugin": "^1.2.0",
     "gh-pages": "^1.2.0",
+    "jquery": "^3.5.0",
+    "js-yaml": "^3.13.1",
     "kind-of": "^6.0.3",
     "minimist": "^1.2.5",
     "node-sass": "^4.13.1",
