@@ -4,6 +4,7 @@
   "description": "Professional Boilerplate for Vanilla.js Web Apps",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "c9": "echo The webpack development server cannot be used on this project && echo Please run: $ npm run build",
     "dev-server": "echo The webpack development server cannot be used on this project,[0m Please run $ npm run build",
     "build": "webpack --mode development",
@@ -61,5 +62,9 @@
     "style-loader": "^0.21.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^2.0.14"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5",
+    "kind-of": "^6.0.3"
   }
 }
